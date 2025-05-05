@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprèn a Sobreviure i Gaudir a la Cuina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff9900;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #ff6600;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #444;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        ul {
+            font-size: 1.1em;
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        .content-box {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-box ul {
+            list-style-type: square;
+            padding-left: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #ff6600;
+            color: white;
+            padding: 15px 30px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #e65c00;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Aprèn a Sobreviure i Gaudir a la Cuina</h1>
+        <p>Curs per a principiants que volen aprendre a cuinar plats bàsics, saludables i econòmics.</p>
+    </header>
+
+    <!-- Descripció del Curs -->
+    <section>
+        <h2>Descripció del Curs</h2>
+        <p>Aquest curs està dissenyat per a joves que s’estan independitzant o que viuen sols i volen aprendre a cuinar plats fàcils i saludables amb poc pressupost. No importa si mai has cuinat abans, aquest curs et guiarà pas a pas per fer-ho.</p>
+    </section>
+
+    <!-- Públic Objectiu -->
+    <section>
+        <h2>Públic Objectiu</h2>
+        <div class="content-box">
+            <p>El curs està destinat a:</p>
+            <ul>
+                <li>Joves entre 18 i 30 anys que s’han independitzat.</li>
+                <li>Estudiants universitaris que viuen fora de casa.</li>
+                <li>Persones amb poc temps i pressupost ajustat per cuinar.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Objectius d'Aprenentatge -->
+    <section>
+        <h2>Objectius d'Aprenentatge</h2>
+        <div class="content-box">
+            <ul>
+                <li>Entendre els conceptes bàsics de la cuina (tècniques, utensilis, ingredients essencials).</li>
+                <li>Cuinar almenys 10 plats bàsics: esmorzar, dinar, sopar.</li>
+                <li>Planificar i preparar àpats equilibrats i assequibles.</li>
+                <li>Fer servir tècniques de cocció segures i eficients.</li>
+                <li>Organitzar i conservar els aliments correctament.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Esquema del Contingut -->
+    <section>
+        <h2>Esquema del Contingut del Curs</h2>
+        <div class="content-box">
+            <h3>Mòdul 1: Introducció a la Cuina</h3>
+            <ul>
+                <li>Benvinguda i presentació del curs</li>
+                <li>Materials i utensilis imprescindibles</li>
+                <li>Organització de la cuina petita</li>
+            </ul>
+
+            <h3>Mòdul 2: Ingredients Bàsics</h3>
+            <ul>
+                <li>El que has de tenir sempre a la cuina</li>
+                <li>Com fer la compra intel·ligent</li>
+            </ul>
+
+            <h3>Mòdul 3: Tècniques Bàsiques de Cuina</h3>
+            <ul>
+                <li>Tallar, saltejar, bullir, coure al forn</li>
+                <li>Ús segur de ganivets i foc</li>
+            </ul>
+
+            <h3>Mòdul 4: Esmorzars Fàcils i Nutritius</h3>
+            <ul>
+                <li>Torrades variades, batuts, ous de diferents maneres</li>
+            </ul>
+
+            <h3>Mòdul 5: Dinars i Sopars Essencials</h3>
+            <ul>
+                <li>Pasta ràpida, arròs amb verdures o pollastre, amanides completes</li>
+            </ul>
+
+            <h3>Mòdul 6: Conservació i Preparació</h3>
+            <ul>
+                <li>Preparació d’àpats per la setmana</li>
+                <li>Emmagatzematge i congelació d’aliments</li>
+            </ul>
+
+            <h3>Mòdul 7: Bonus - Trucs i Consells</h3>
+            <ul>
+                <li>Reaprofitar restes, cuinar per a convidats amb poc pressupost</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Pla de Continguts -->
+    <section>
+        <h2>Pla de Continguts</h2>
+        <div class="content-box">
+            <p>Durant cada mòdul, t'oferirem vídeos, fitxes de suport, receptes descarregables i recursos pràctics per facilitar-te l'aprenentatge.</p>
+        </div>
+    </section>
+
+    <!-- Inscripció al curs -->
+    <section>
+        <h2>Inicia el teu curs ara!</h2>
+        <p>Apunta't per començar a aprendre a cuinar i gaudir d’àpats deliciosos i saludables. Et proporcionarem tots els recursos necessaris per començar avui mateix.</p>
+        <a href="#" class="btn">Apunta't al Curs</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Aprèn a Sobreviure i Gaudir a la Cuina</p>
+        <p>
+            <a href="#">Política de Privacitat</a> |
+            <a href="#">Contacte</a>
+        </p>
+    </footer>
+
+</body>
+</html>
